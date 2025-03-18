@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root {
+  font-family: "Alice", serif;
+  list-style: 150%;
+  color: #573A37;
+}
+
 body {
   background-image: url(assets/Página\ de\ receita.jpg);
   background-size: cover;
@@ -16,4 +22,15 @@ body {
 
 img {
   border-radius: 16px;
+}
+
+h1 {
+  color: #291B1A;
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  color: #291B1A;
+  font-size: 24px;
 }
