@@ -23,12 +23,12 @@ body {
 .headline {
   color: #E1624F;
   font-weight: bold;
-  margin-bottom: 8px;
 }
 
 h1 {
   color: #1B1B1B;
   font-size: 36px;
+  padding-top: 8px;
 }
 
 #title-page {
@@ -104,6 +104,13 @@ h3 {
   color: #333333;
 }
 
+.divider2 {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0 40px;
+  background-color: #d9d9d9;
+}
+
 #desc {
   color: #333333;
   text-align: center;
@@ -111,6 +118,7 @@ h3 {
 
 footer {
   color: #333333;
+  font-family: "Alice", serif;
   text-align: center;
   margin: 65px 0 48px;
 }
