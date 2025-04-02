@@ -25,6 +25,20 @@
   /* Variaveis de fonte acima */
 }
 
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-column {
+  grid-auto-flow: column;
+}
+
 body {
   color: var(--text-color-primarary);
   background-color: var(--bg-color);
